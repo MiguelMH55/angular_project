@@ -23,7 +23,7 @@ body {
   padding: 20px;
   background-color: black;
   width: 250px;
-  height: 500px;
+  height: 450px;
   border-radius: 20px;
 }
 
@@ -33,6 +33,7 @@ body {
   height: 50px;
   font-size: 25px;
   background-color: mediumblue;
+  margin-left: 10px;
 }
 
 

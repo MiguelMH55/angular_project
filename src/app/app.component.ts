@@ -10,7 +10,7 @@ export class AppComponent {
     constructor() {
     }
 
-    visualiza = "0";
+    visualiza = "";
     memoria = "";
     operacion = "";
 
