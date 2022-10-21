@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+
+</head>
+<body onload="init();">
+    <div class="calc">
+        
+        <table class="calculadora">
+
+            <tr class="aresult">
+                <td colspan="4" [(ngModel)]="resultado" disabled><span id="resultado"></span></td>
+            </tr>
+            <tr>
+                <td> <button id="sum">+</button></td>
+                <td> <button id="res">-</button></td>
+                <td> <button id="mult">*</button></td>
+                <td> <button id="div">/</button></td>
+            </tr>
+            <tr>
+                <td> <button id="siete">7</button></td>
+                <td> <button id="ocho">8</button></td>
+                <td> <button id="nueve">9</button></td>
+                <td> <button id="borrar">CE</button></td>
+            </tr>
+            <tr>
+                <td> <button id="cuatro">4</button></td>
+                <td> <button id="cinco">5</button></td>
+                <td> <button id="seis">6</button></td>
+                <td> <button id="retro"><-</button></td>
+            </tr>
+            <tr>
+                <td> <button id="uno">1</button></td>
+                <td> <button id="dos">2</button></td>
+                <td> <button id="tres">3</button></td>
+                <td rowspan="5"><button id="ig" style="height: 102px;">=</button></td>
+            </tr>
+            <tr>
+                <td><button id="mn">+/-</button></td>
+                <td><button id="cero">0</button></td>
+                <td><button id="coma">,</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

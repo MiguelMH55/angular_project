@@ -1,0 +1,51 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.calculadora {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: black;
+  width: 250px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.gris {
+  display: block;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  background-color: mediumblue;
+}
+
+
+
+#visualiza {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  width: 250px;
+  height: 100px;
+  line-height: 100px;
+  background-color: white;
+  border-radius: 25px;
+  overflow-y: scroll;
+}
